@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:layout/widgets/business_card.dart';
 import 'themes/default_theme.dart';
-import 'widgets/home_page.dart';
-import 'widgets/column.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: purpleTheme,
-      home: MyRowWidget(),
+      home: BusinessCardWidget(),
     );
   }
 }
